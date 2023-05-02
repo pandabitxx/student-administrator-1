@@ -33,23 +33,23 @@
       </div>
 </div> -->
 
-<nav>
-  
-</nav>
-
-
 <div class="row">
   <div class="col">
-    <button type="button" class="btn btn-primary mb-2 w-100">
-      <a class="text-toolbar" [routerLink]="['/users']">Alumnos</a>
-    </button>
 
-    <button type="button" class="btn btn-primary mb-2 w-100">
-      <a class="text-toolbar" [routerLink]="['/users']">Cursos</a>
-    </button>
-
-    <button type="button" class="btn btn-primary mb-2 w-100">
-      <a class="text-toolbar" [routerLink]="['/form']">¿Tienes mas Inquietudes?</a>
-    </button> 
+    <a class="text-toolbar" [routerLink]="['/users']">
+      <button type="button" class="btn btn-primary mb-2 w-100">
+        Alumnos
+      </button>
+    </a>
+    <a class="text-toolbar" [routerLink]="['/courses']">
+      <button type="button" class="btn btn-primary mb-2 w-100">
+        Cursos
+      </button>
+    </a>
+    <a class="text-toolbar" [routerLink]="['/form']">
+      <button type="button" class="btn btn-primary mb-2 w-100">
+        ¿Tienes mas Inquietudes?
+      </button>
+    </a>
   </div>
 </div>

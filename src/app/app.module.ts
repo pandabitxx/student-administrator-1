@@ -13,6 +13,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import {MatTableModule} from '@angular/material/table';
 import { AppFormComponent } from './app-form/app-form.component';
+import { AppCursosComponent } from './app-cursos/app-cursos.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { AppFormComponent } from './app-form/app-form.component';
     AppNavbarComponent,
     AppUserAdministratorComponent,
     AppFormComponent,
+    AppCursosComponent,
   ],
   imports: [
     BrowserModule,
