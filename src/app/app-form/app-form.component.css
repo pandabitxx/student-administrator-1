@@ -1,5 +1,5 @@
 #contacto-formulario {
-    margin-top: 4rem;
+    margin-top: 1rem;
     margin-bottom: 4rem;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -13,7 +13,7 @@
     padding-bottom: 2rem;
     padding-right: 2rem;
     padding-left: 2rem;
-    background-color: rgba(87, 154, 177, 0.4509803922);
+    background-color: rgba(160, 182, 189, 0.451);
 }
 
 span {
