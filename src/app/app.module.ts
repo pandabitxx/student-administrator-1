@@ -14,6 +14,7 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import {MatTableModule} from '@angular/material/table';
 import { AppFormComponent } from './app-form/app-form.component';
 import { AppCursosComponent } from './app-cursos/app-cursos.component';
+import { AppHomeComponent } from './app-home/app-home.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { AppCursosComponent } from './app-cursos/app-cursos.component';
     AppUserAdministratorComponent,
     AppFormComponent,
     AppCursosComponent,
+    AppHomeComponent,
   ],
   imports: [
     BrowserModule,
