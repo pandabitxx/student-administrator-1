@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,6 +11,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatInputModule } from '@angular/material/input';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import {MatTableModule} from '@angular/material/table';
+import { AppFormComponent } from './app-form/app-form.component';
 
 
 @NgModule({
@@ -17,7 +19,8 @@ import {MatTableModule} from '@angular/material/table';
     AppComponent,
     AppToolbarComponent,
     AppNavbarComponent,
-    AppUserAdministratorComponent
+    AppUserAdministratorComponent,
+    AppFormComponent,
   ],
   imports: [
     BrowserModule,
@@ -25,7 +28,8 @@ import {MatTableModule} from '@angular/material/table';
     BrowserAnimationsModule,
     MatCheckboxModule,
     MatInputModule,
-    MatTableModule
+    MatTableModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
