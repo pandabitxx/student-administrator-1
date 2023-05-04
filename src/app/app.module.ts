@@ -15,6 +15,8 @@ import {MatTableModule} from '@angular/material/table';
 import { AppFormComponent } from './app-form/app-form.component';
 import { AppCursosComponent } from './app-cursos/app-cursos.component';
 import { AppHomeComponent } from './app-home/app-home.component';
+import { AppLoginComponent } from './app-login/app-login.component';
+
 
 
 @NgModule({
@@ -26,6 +28,7 @@ import { AppHomeComponent } from './app-home/app-home.component';
     AppFormComponent,
     AppCursosComponent,
     AppHomeComponent,
+    AppLoginComponent,
   ],
   imports: [
     BrowserModule,
